@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main(void) {
-    if (putsc("Hello, World!") == EOF) {
-        return EXIT_SUCCESS;
+    if (puts("Hello, World!") == EOF) {
+        return EXIT_FAILURE;
     }
     return EXIT_SUCCESS;
 }
